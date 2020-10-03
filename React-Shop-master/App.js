@@ -38,7 +38,7 @@ decrementCounter = (productName)=>()=>{
    }
 
 
-
+ const oldCounter = this.state.productCounter; // adding an oldCounter variable
 
     render(){
         console.log(this.state.productCounter);
